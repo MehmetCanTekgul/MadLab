@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99E2EC"
+    tools:context=".PersonalInformations">
+
+    <TextView
+        android:id="@+id/Person4"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="172dp"
+        android:gravity="center_vertical"
+        android:text="Department:"
+        android:textColor="#283593"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Person1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Person1"
+        app:layout_constraintTop_toBottomOf="@+id/Person1" />
+
+    <TextView
+        android:id="@+id/Person3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="96dp"
+        android:gravity="center_vertical"
+        android:text="ID:"
+        android:textColor="#283593"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Person1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Person1"
+        app:layout_constraintTop_toBottomOf="@+id/Person1" />
+
+    <ImageButton
+        android:id="@+id/imgBtnHome"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#03A9F4"
+        android:backgroundTint="@color/blue"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bluehomebackground_foreground"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/Person1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="220dp"
+        android:gravity="center_vertical"
+        android:text="Name:"
+        android:textColor="#283593"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Person2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_vertical"
+        android:text="Surname:"
+        android:textColor="#283593"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Person1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Person1"
+        app:layout_constraintTop_toBottomOf="@+id/Person1" />
+
+    <CheckedTextView
+        android:id="@+id/Personal"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Personal Informations:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Person1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogOut"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="#2196F3"
+        android:text="LOGOUT"
+        android:textColor="#212121"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Person4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Personal"
+        app:layout_constraintTop_toBottomOf="@+id/Personal"
+        app:layout_constraintVertical_bias="0.922" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99E2EC"
+    android:textAlignment="center"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/TxtEmail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="#C2E0E4"
+        android:ems="10"
+        android:hint="E-Mail@posta.mu.edu.tr"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:shadowColor="#3F51B5"
+        android:textColor="#2196F3"
+        android:textColorHint="#283593"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <EditText
+        android:id="@+id/TxtPassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="#C2E0E4"
+        android:ems="10"
+        android:hint="EnterPassword"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#283593"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TxtEmail"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnMain"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="LOGIN"
+        android:textColor="#283593"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtPassword"
+        app:layout_constraintVertical_bias="0.206" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="275dp"
+        android:layout_height="250dp"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintBottom_toTopOf="@+id/TxtEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDownload"
+        android:layout_width="133dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="104dp"
+        android:background="#2196F3"
+        android:text="Download"
+        android:textColor="#212121"
+        app:layout_constraintEnd_toEndOf="@+id/BtnMain"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/BtnMain"
+        app:layout_constraintTop_toBottomOf="@+id/BtnMain"
+        tools:ignore="TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

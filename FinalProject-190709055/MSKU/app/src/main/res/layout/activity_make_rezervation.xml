@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99E2EC"
+    tools:context=".MakeRezervation">
+
+    <TextView
+        android:id="@+id/SelectDate5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:text="DD/MM/YY"
+        android:textAlignment="center"
+        android:textColor="#283593"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toEndOf="@+id/switch4"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView2" />
+
+    <TextView
+        android:id="@+id/SelectDate4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:text="DD/MM/YY"
+        android:textAlignment="center"
+        android:textColor="#283593"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toEndOf="@+id/switch4"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView2" />
+
+    <TextView
+        android:id="@+id/SelectDate3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:text="DD/MM/YY"
+        android:textAlignment="center"
+        android:textColor="#283593"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toEndOf="@+id/switch4"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView2" />
+
+    <TextView
+        android:id="@+id/SelectDate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:selectAllOnFocus="false"
+        android:text="DD/MM/YY"
+        android:textAlignment="center"
+        android:textColor="#283593"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toEndOf="@+id/switch4"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView2" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:layout_marginTop="272dp"
+        android:background="#C2E0E4"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/checkedTextView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView2"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView2" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:layout_marginTop="8dp"
+        android:background="#C2E0E4"
+        android:backgroundTint="#C2E0E4"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/checkedTextView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView2"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView2" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:layout_marginTop="140dp"
+        android:background="#C2E0E4"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/checkedTextView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView2"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView2" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:layout_marginTop="72dp"
+        android:background="#C2E0E4"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/checkedTextView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView2"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView2" />
+
+    <ImageButton
+        android:id="@+id/imgBtnPerson"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blue"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/bluepersonbackground_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imgBtnBack"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blue"
+        android:contentDescription="MSKU"
+        android:src="@drawable/bluebackbackground_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imgBtnHome"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blue"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bluehomebackground_foreground"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="172dp"
+        android:gravity="center"
+        android:text="Select date for make rezervation"
+        android:textColor="#283593"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/SelectDate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:text="DD/MM/YY"
+        android:textAlignment="center"
+        android:textColor="#283593"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toEndOf="@+id/switch4"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView2" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="208dp"
+        android:background="#C2E0E4"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/checkedTextView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView2"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/CancelButton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="104dp"
+        android:background="#00BCD4"
+        android:text="Make Rezervation"
+        android:textColor="#212121"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99E2EC"
+    tools:context=".BalanceHistory">
+
+    <ImageButton
+        android:id="@+id/imgBtnPerson"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blue"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/bluepersonbackground_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imgBtnBack"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="4dp"
+        android:backgroundTint="@color/blue"
+        android:contentDescription="MSKU"
+        android:src="@drawable/bluebackbackground_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imgBtnHome"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blue"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bluehomebackground_foreground"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckedTextView
+        android:id="@+id/txtBalanceHistroy"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="236dp"
+        android:background="#C2E0E4"
+        android:text="You Have"
+        android:textAlignment="center"
+        android:textColor="#283593"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtBalanceHistoryAmount"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:background="#C2E0E4"
+        android:text="30 "
+        android:textAlignment="center"
+        android:textColor="#283593"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtBalanceHistroy"
+        app:layout_constraintStart_toStartOf="@+id/txtBalanceHistroy"
+        app:layout_constraintTop_toBottomOf="@+id/txtBalanceHistroy" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView5"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:background="#C2E0E4"
+        android:text=" Dolar In Your Account"
+        android:textAlignment="center"
+        android:textColor="#283593"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtBalanceHistoryAmount"
+        app:layout_constraintStart_toStartOf="@+id/txtBalanceHistoryAmount"
+        app:layout_constraintTop_toBottomOf="@+id/txtBalanceHistoryAmount" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

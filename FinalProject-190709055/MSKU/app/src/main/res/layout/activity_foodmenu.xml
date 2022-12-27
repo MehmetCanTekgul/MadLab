@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99E2EC">
+
+    <CheckedTextView
+        android:id="@+id/Time5"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="600dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="DINNER"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/OgunMain"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/OgunMain"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckedTextView
+        android:id="@+id/Time4"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:text="DINNER"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/OgunMain"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/OgunMain"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckedTextView
+        android:id="@+id/Time3"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="400dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="DINNER"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/OgunMain"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/OgunMain"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckedTextView
+        android:id="@+id/Time2"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="DINNER"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/OgunMain"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/OgunMain"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Menu5"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="600dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="MENU"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toEndOf="@+id/DateMain"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Menu1"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="MENU"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toEndOf="@+id/DateMain"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Menu3"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="400dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="MENU"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toEndOf="@+id/DateMain"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Menu2"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="MENU"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toEndOf="@+id/DateMain"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Menu4"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:text="MENU"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toEndOf="@+id/DateMain"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Date1"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/DateMain"
+        app:layout_constraintTop_toBottomOf="@+id/DateMain" />
+
+    <TextView
+        android:id="@+id/Date5"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="408dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/MenuMain"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/DateMain"
+        app:layout_constraintTop_toBottomOf="@+id/DateMain" />
+
+    <TextView
+        android:id="@+id/Date4"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="308dp"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/MenuMain"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/DateMain"
+        app:layout_constraintTop_toBottomOf="@+id/DateMain" />
+
+    <TextView
+        android:id="@+id/Date3"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="208dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/MenuMain"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/DateMain"
+        app:layout_constraintTop_toBottomOf="@+id/DateMain" />
+
+    <TextView
+        android:id="@+id/Date2"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="108dp"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/MenuMain"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/DateMain"
+        app:layout_constraintTop_toBottomOf="@+id/DateMain" />
+
+    <ImageButton
+        android:id="@+id/imgBtnPerson"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blue"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/bluepersonbackground_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imgBtnBack"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blue"
+        android:contentDescription="MSKU"
+        android:src="@drawable/bluebackbackground_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imgBtnHome"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blue"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bluehomebackground_foreground"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/DateMain"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="144dp"
+        android:background="#C2E0E4"
+        android:gravity="center"
+        android:text="DATE"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MenuMain"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="144dp"
+        android:background="#C2E0E4"
+        android:gravity="center"
+        android:text="MENU"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toEndOf="@+id/DateMain"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/OgunMain"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="144dp"
+        android:background="#C2E0E4"
+        android:gravity="center"
+        android:text="OGUN"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toEndOf="@+id/MenuMain"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Time1"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="DINNER"
+        android:textAlignment="gravity"
+        android:textColor="#283593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/OgunMain"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/OgunMain"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
